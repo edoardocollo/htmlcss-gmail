@@ -1,0 +1,87 @@
+body {
+  background-image: url('../img/sfondo.jpeg');
+}
+
+#main_container {
+  width: 1700px;
+  margin-left: 50px;
+}
+
+.header_logo {
+  display: inline-block;
+  height: 69px;
+  line-height: 69px;
+  vertical-align: middle;
+}
+
+.header_logo.text {
+  color: white;
+  font-size: 20px;
+}
+
+header {
+  border-bottom: 2px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#search_unread {
+  margin: 5px;
+  border-bottom: 2px solid white;
+}
+
+#unread {
+  color: white;
+  font-size: 25px;
+  margin: 5px 0 5px 0;
+}
+
+#unread_text_cerchio {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 25px;
+}
+
+#row_conteiner {
+  padding: 10px 0 10px 0;
+  border-bottom: 2px solid white;
+}
+
+#row_conteiner span {
+  padding: 2px;
+}
+
+.mail_row {
+  background-color: lightgrey;
+  margin: 2px 0 2px 0;
+  padding: 2px
+}
+
+.testo_grigio {
+  color: gray;
+}
+
+.mail_row.light {
+  background-color: white;
+}
+
+footer {
+  text-align: center;
+}
+
+#gmtext, #powered {
+  display: inline-block;
+  color: white;
+}
+
+#gmtext{
+  font-size: 30px;
+}
+
+#powered {
+  font-style: italic;
+}
